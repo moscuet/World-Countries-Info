@@ -33,7 +33,7 @@ const url = 'https://restcountries.eu/rest/v2/all'
 fetch(url)
     .then(response => response.json())
     .then(countries => {
-let flagg=1
+let flagg
     dislaySearch(countries);    
     startWith.addEventListener('click',function() {    
         flagg=1  
