@@ -8,7 +8,6 @@ let countSearchResult=document.querySelector('#count_search_result')
 let start
 let searchInput =''
 
-
 const dislaySearch= (countries) => {
     displayContainer.innerHTML = ''  
     countries.forEach(country => {  
